@@ -1,0 +1,41 @@
+.form-search{
+    text-align: center;
+    
+}
+
+.input-search{
+    width: 800px;
+    margin: 2px;
+    border-radius: 7vh;
+    
+}
+
+.form-c2{
+    background: rgb(37, 37, 37);
+    width: 807px;
+    margin: auto;
+    border-radius: 7vh;
+}
+
+@media screen and (max-width:992px){
+    .input-search{
+        width: 99%;
+        margin: 2px;
+        border-radius: 7vh;
+    }
+    .form-c2{
+
+        background: rgb(53, 53, 53);
+        width: 90%;
+        margin: auto;
+        border-radius: 7vh;
+    }
+}
+
+.form-search input{
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color:#121212;
+    color: rgb(196, 196, 196);
+}

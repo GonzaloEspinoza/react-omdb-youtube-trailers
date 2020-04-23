@@ -1,0 +1,19 @@
+
+.title-cards{
+
+    font-size: 0.8rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.card-body2{
+    padding: 4px 0 0 9px !important;
+    background: #181818 ;
+    color: aliceblue;
+}
+
+.card-conrtent{
+    border: 0 !important;
+    margin: 0;
+
+}
