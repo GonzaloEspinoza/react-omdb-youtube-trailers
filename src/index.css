@@ -1,4 +1,26 @@
+*{
+
+    font-family: 'Manrope', sans-serif;
+    
+}
 
 .body-home{
     background: #181818;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
+
+/* ---- Styles to *- scroll -* ----  */
+body::-webkit-scrollbar {
+    width: 0.40rem;
+  }
+  
+  body::-webkit-scrollbar-track{
+    background: #1e1e24 !important;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background: #bb0f02;
+  }
+
+/* -------------------------------- */

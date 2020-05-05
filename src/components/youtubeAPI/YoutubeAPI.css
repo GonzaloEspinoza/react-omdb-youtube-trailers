@@ -1,0 +1,23 @@
+
+.content-youtube{
+    background: #181818 ;
+}
+
+
+.iframe-youtube{
+    border: 0em;
+}
+
+@media screen and (max-width:576px){
+    .title-loding{
+        top: 100px;
+        color: ivory;
+        margin-left: -3px;
+        display: block;
+        position: fixed;
+        height: 10px;
+        z-index: 2;
+    
+    }
+ 
+}

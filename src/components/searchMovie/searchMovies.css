@@ -5,8 +5,9 @@
 
 .input-search{
     width: 800px;
-    margin: 2px;
-    border-radius: 7vh;
+    margin: 0;
+    background: white !important;
+    /* border-radius: 7vh; */
     
 }
 
@@ -14,28 +15,67 @@
     background: rgb(37, 37, 37);
     width: 807px;
     margin: auto;
-    border-radius: 7vh;
+    /* border-radius: 7vh; */
 }
 
 @media screen and (max-width:992px){
     .input-search{
         width: 99%;
-        margin: 2px;
+        margin: 1px;
         border-radius: 7vh;
     }
     .form-c2{
 
-        background: rgb(53, 53, 53);
+        background: rgb(0, 0, 0);
         width: 90%;
         margin: auto;
-        border-radius: 7vh;
+        /* border-radius: 7vh; */
+    }
+    .form-search input{
+        color: rgb(20, 14, 14) !important;
+        height: 29px !important;
+        font-size: 0.9rem !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        background-color:#d8d8d8 !important;
+
+    }
+    .fas-search-icon{
+        font-size: 1rem !important;
+        padding: 0 0 0 0 !important;
+        display: block;
     }
 }
 
+@media screen and (max-width:640px){
+    .btn-searcr-conten-icon .btn{
+        padding: 0 1px 0 1px !important;
+    }
+
+
+}
+
 .form-search input{
-    padding-left: 5px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    height: 32px;
+    font-size: 1.1rem;
+    padding-left: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-color:#121212;
     color: rgb(196, 196, 196);
 }
+
+.fas-search-icon{
+    font-size: 1.4rem;
+    padding: 0;
+    display: block;
+}
+
+.btn-searcr-conten-icon{
+    padding: 0 32px 0 32px !important;
+}
+
+
+/* booton ver mas */
+
+/*  */

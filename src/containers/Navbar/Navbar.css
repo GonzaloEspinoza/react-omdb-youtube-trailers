@@ -1,0 +1,39 @@
+
+
+.navbar-content {
+    background: #343A40 !important;
+    padding: 6px 50px 6px 50px !important;
+
+
+}
+
+
+.logo-traillers-icon {
+    padding: 1px 6px 0 0;
+    margin: auto;
+    font-size: 1.3rem;
+    color: rgb(1, 207, 29);
+}
+
+@media screen and (max-width:640px){
+    .navbar-content {
+        background: #343A40 !important;
+        padding: 6px 0 6px 0 !important;
+    
+    }
+}
+
+@media screen and (min-width:1000px){
+    .navbar-content {
+        margin: auto;
+        background: #343A40 !important;
+        padding: 6px 50px 6px 60px !important;
+    
+    
+    }
+}
+
+
+
+
+

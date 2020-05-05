@@ -1,0 +1,83 @@
+
+
+.content-banner{
+    height: 43vh;
+}
+
+.banner{
+    width: 110%;
+    margin-left: -23px;
+    top: 42px;
+    height: 43vh;
+    /* background: tomato; */
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 100px ;
+}
+
+.title{
+    top: 90px;
+    left: 30px;
+    color: white;
+    display: flex;
+    position: absolute;
+   z-index: 2;
+}
+
+
+.mascara-humo{
+    width: 105%;
+    height: 50vh;
+    margin-left: -20px;
+
+    position: absolute;
+    background: linear-gradient(#000000b6, #00000081);
+    z-index: 1;
+}
+
+.images img{
+    height: 128px;
+    width: 112px;
+    
+}
+
+
+/* movil */
+@media screen and (max-width:640px){
+    .banner{
+    width: 137%;
+    margin-left: -23px;
+    top: 42px;
+    height: 43vh;
+    /* background: tomato; */
+    position: relative;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    margin-bottom: 100px ;
+}
+
+.mascara-humo{
+    width: 137%;
+    height: 50vh;
+    margin-left: -20px;
+
+    position: absolute;
+    background: linear-gradient(#000000b6, #00000081);
+    z-index: 1;
+}
+
+    .title{
+        top: 90px;
+        left: 30px;
+        width: 300px;
+        font-size: 1.3pc !important;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    }
+
+
+}
+
+/* ---- */

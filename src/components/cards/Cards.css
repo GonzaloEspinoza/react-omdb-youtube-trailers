@@ -7,7 +7,7 @@
 }
 
 .card-body2{
-    padding: 4px 0 0 9px !important;
+    padding: 20px 0 0 9px !important;
     background: #181818 ;
     color: aliceblue;
 }
@@ -17,3 +17,12 @@
     margin: 0;
 
 }
+
+
+/* CardsDesktop  */
+
+.CardsDesktop{
+    padding: 0 0 3px 0;
+    margin: auto;
+}
+/* ----------- */

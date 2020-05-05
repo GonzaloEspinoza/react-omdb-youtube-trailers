@@ -1,22 +1,33 @@
 
-
-
 .image-card{
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
-    width: auto;
-    height: auto;
+    width: 100% !important ;
+    /* height: auto; */
+    /* display: block; */
+    
     /* position: fixed !important; */
 }
+
+
+.card-container-detail{
+
+    padding: 0 0 0 0 !important;
+    margin: 49px 0 0 0 !important;
+}
+
+
+
 
 
 .title-card-detail{
 
     margin: 0 0 0 0 !important;
-    background: #1a1110;
+    background:#181818;
     border:thin !important;
-    border-color: rgb(137, 139, 139) !important;
+    border: 0 !important;
+    /* border-color: rgb(240, 240, 240) !important; */
     border-style: solid !important;
 }
 
@@ -28,23 +39,23 @@
 }
 
 .star-rating h2{
-    text-align:right;
+    text-align:right !important;
 }
 .detal-movie strong{
     
     font-weight:800 !important;
-    color: rgb(179, 179, 179);
+    color: rgb(255, 255, 255);
 }
 
 .detal-movie p{
     margin: auto;
-    text-align: right;
+    text-align: left;
     padding-left: 12px;
 }
 
 .text-title-movie{
     padding:12px 0 0 0;
-    text-align: left;
+    text-align: right !important;
     font-size: 1.5em;
     font-weight: 100;
 }
@@ -53,17 +64,18 @@
     .detal-movie p{
         margin: auto;
         text-align: left;
-        padding-left: 1px;
+        padding-left: 0;
     }
-    .star-rating h2{
-        text-align:left;
-    }
+    /* .star-rating h2{
+        text-align:left !important;
+    } */
     .title-card-detail{
         padding: 0 !important;
         margin: 0 0 0 0 !important;
-        background: #1a1110;
-        border:thin !important;
-        border-color: rgb(137, 139, 139) !important;
+        background: #181818;
+        /* border:thin !important; */
+        border: 0;
+        /* border-color: rgb(253, 253, 253) !important; */
         border-style: solid !important;
     }
     .text-title-movie{
@@ -71,20 +83,21 @@
         text-align: left;
         font-size: 1.2em;
     }
-
+/* 
     .image-card{
         display: none !important
-    }
+    } */
 
-    .title2{
+    /* .title2{
         display: none !important;
-    }
+    } */
 }
 /* --------------------------------- */
 
 /*  */
 .contend-youtube-more-datail{
     padding: 0 13px 0 15px !important;
+    
 }
 /*  */
 
@@ -96,17 +109,72 @@
 
 .iframe-youtube{
     width: 100%;
-    height:400px;
+    height:500px;
     margin: auto;
-    display: block;
+    /* display: block; */
+
+}
+
+
+/* ----- TAMANO MOVIL--- */
+@media screen and (max-width:576px){
+    .iframe-youtube{
+        margin-left: -3px;
+        display: block;
+        position: fixed;
+        height: 230px;
+        z-index: 1;
+
+    }
+    .title-detail{
+        top: 230px;
+        
+    }
+    .star-rating h2{
+        font-size: 1.1rem !important;
+    }
+    .detal-movie{
+        top: 230px;
+    }
+    .detal-movie .ciudad{
+        display: none;
+    }
+    .detal-movie .publicado{
+        display: none;
+    }
+    .detal-movie .producido{
+        display: none;
+    }
+    .detal-movie .descripcion{
+        display: none;
+    }
+    .content-cards{
+        top: 230px;
+    }
+
+    /* List button */
+    
 
 }
 /* ----------------------- */
 
 /* -------more detail------- */
-.contend-more-detail{
+.contend-more-detail .card-text{
     text-align: left;
+    color: #000000 !important;
+    padding-bottom: 23px;    
+}
+    
+.contend-more-detail .card-text{
+    color: rgb(0, 0, 0) !important;
+}
 
+.descripcion {
+
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+    white-space: initial;
+  overflow: hidden;
 }
 
 /* --------------- */
