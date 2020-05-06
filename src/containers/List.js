@@ -10,6 +10,9 @@ import SearchMovie from '../components/searchMovie/searchMovies'
 import Banner from '../components/banner/Banner'
 import ItemDetail2 from '../components/ItenDetail/itemDetail2'
 import Navbar from '../containers/Navbar/Navbar'
+
+import CounterVisit from '../components/counterVisit/CounterVisit'
+
 import './List.css'
 
 class List extends React.Component {
@@ -52,6 +55,27 @@ class List extends React.Component {
 
     }
 
+   async componentDidMount(){
+
+        const url = 'http://localhost:5000/api/control'
+        const data ={
+            nameAplication:'trailers'
+        }
+        const params={
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers:{
+                'Content-Type': 'application/json',
+              }
+        }
+
+        fetch(url, params)
+        .then(data=>data.json())
+        .then(res=>{
+            console.log(res)
+        })
+
+    }
 
     async sendSearch(term) {
         console.log(term)
@@ -228,6 +252,7 @@ class List extends React.Component {
 
                         <div>
 
+                    <CounterVisit />
                         <h6 className="text-light pl-3 h5 float-sm-left"> Nuestros trailers </h6>
                         </div>
                         </div>
